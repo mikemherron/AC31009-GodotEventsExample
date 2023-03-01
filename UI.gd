@@ -16,3 +16,10 @@ func hide_health() -> void:
 
 func game_over() -> void:
 	_game_over.show()
+
+func on_player_hit(health : int):
+	if health > 0 :
+		set_health(health)
+	else:
+		hide_health()
+		game_over()
