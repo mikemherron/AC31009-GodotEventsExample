@@ -22,7 +22,7 @@ _global_script_classes=[ {
 "base": "Control",
 "class": "UIController",
 "language": "GDScript",
-"path": "res://UI.gd"
+"path": "res://UIController.gd"
 } ]
 _global_script_class_icons={
 "Bullet": "",
